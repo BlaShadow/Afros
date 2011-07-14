@@ -1,10 +1,15 @@
+<?php
+
+require_once("db/conexion.php");
+
+?>
 <html>
 
 <head>
 
 	<title>Peluquerias</title>
 	
-	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/styleNegocio.css" media="screen">
 	
 </head>
 
@@ -14,7 +19,6 @@
 		
 		<div id="header">
 		
-			
 		
 		</div>
 		
@@ -28,9 +32,14 @@
 		
 		</div>
 		
-		<div id="body">
+		<div id="bodyNegocio">
 		
+			<div id="login">
 			
+			<?php ?>
+			
+			</div>
+		
 		</div>
 		
 		<div id="footer"></div>
