@@ -31,3 +31,32 @@
 	border:2px solid green;
 
 }
+
+
+
+/***************************************/
+
+.item{
+
+	width:150px;
+	height:30px;
+	background-color:red;
+	float:left;
+	margin:0 5 0 0;
+	color:white;
+	text-align:center;
+	
+}
+#menu a{
+
+	text-decoration:none;
+
+}
+
+
+#menu div:hover{
+
+	background-color:white;
+	color:black;
+
+}
