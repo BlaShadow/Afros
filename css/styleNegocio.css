@@ -1,0 +1,42 @@
+/************/
+
+/* Pagina */
+#page{
+
+	width:960px;
+	border:2px solid black;
+	margin:auto;
+	min-height:600px;
+
+}
+/* Cabecera*/
+#header{
+
+	height:200px;
+	border:2px solid blue;
+}
+
+/*Cuerpo del index*/
+
+#bodyNegocio{
+
+	border:1px solid red;
+	height:300px;
+}
+
+/* pie de pagina*/
+#footer{
+
+	height:100px;
+	border:2px solid green;
+
+}
+
+#login{
+
+	width:200px;
+	height:200px;
+	border:2px solid red;
+	margin:auto;
+	margin-top:50px;
+}
