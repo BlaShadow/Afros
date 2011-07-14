@@ -22,6 +22,7 @@
 
 	border:1px solid red;
 	height:300px;
+	background-color:#f0f0f0;
 }
 
 /* pie de pagina*/
@@ -40,3 +41,15 @@
 	margin:auto;
 	margin-top:50px;
 }
+
+li{
+	float:left;
+	text-decoration:none;
+	width:70px;
+	height:40px;
+	background-color:#f0f0f0;
+	margin:5px;
+	text-align:center
+
+}
+li a{ text-decoration:none;}
