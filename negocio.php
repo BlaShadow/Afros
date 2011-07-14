@@ -34,9 +34,18 @@ require_once("db/conexion.php");
 		
 		<div id="bodyNegocio">
 		
-			<div id="login">
+			<div id="login" align="center">
 			
-			<?php ?>
+			<form>
+			
+				User:<br>
+				<input type="text">
+				Password:<br>
+				<input type="text">
+				
+				<input type="submit" value="Login">
+			
+			</form>
 			
 			</div>
 		
