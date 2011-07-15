@@ -1,15 +1,10 @@
-<?php
-
-require_once("db/conexion.php");
-
-?>
 <html>
 
 <head>
 
 	<title>Peluquerias</title>
 	
-	<link rel="stylesheet" type="text/css" href="css/styleNegocio.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
 	
 </head>
 
@@ -19,6 +14,7 @@ require_once("db/conexion.php");
 		
 		<div id="header">
 		
+			
 		
 		</div>
 		
@@ -32,23 +28,10 @@ require_once("db/conexion.php");
 		
 		</div>
 		
-		<div id="bodyNegocio">
+		<div id="body">
 		
-			<div id="login" align="center">
 			
-			<form>
 			
-				User:<br>
-				<input type="text">
-				Password:<br>
-				<input type="text">
-				
-				<input type="submit" value="Login">
-			
-			</form>
-			
-			</div>
-		
 		</div>
 		
 		<div id="footer"></div>
