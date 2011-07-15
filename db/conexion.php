@@ -5,6 +5,7 @@
 		public function conexion(){
 		
 			mysql_coonnect("localhost","root","");
+			mysql_seleyc_db("peluqueria");
 		
 		}
 		

@@ -1,5 +1,10 @@
-<html>
+<?php
 
+	session_start();
+	require_once("engine/libreria.php");
+
+?>
+<html>
 <head>
 
 	<title>Peluquerias</title>
@@ -30,6 +35,11 @@
 		
 		<div id="body">
 		
+		<?php
+		
+			
+		
+		?>
 			
 		</div>
 		
@@ -38,5 +48,4 @@
 	</div>
 	
 </body>
-
 </html>
