@@ -2,6 +2,6 @@
 
 	//Incluir todas las librerias dentro de este Archivo
 	
-	require_once("motor.php");
+	require_once("./db/conexion.php");
 
 ?>

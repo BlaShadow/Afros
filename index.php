@@ -37,7 +37,8 @@
 		
 		<?php
 		
-			
+			$conexion= new Conexion;
+			$conexion->conexion();
 		
 		?>
 			

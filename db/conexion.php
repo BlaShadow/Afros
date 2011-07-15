@@ -1,14 +1,13 @@
 <?php
 
-	class conexion{
+	class Conexion{
 	
 		public function conexion(){
 		
-			mysql_coonnect("localhost","root","");
-			mysql_seleyc_db("peluqueria");
+			mysql_connect("localhost","root","");
+			mysql_select_db("peluqueria");
 		
 		}
-		
 		
 		public function closeConexion(){
 		
