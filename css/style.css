@@ -21,7 +21,7 @@
 #body{
 
 	border:1px solid red;
-	height:300px;
+	min-height:300px;
 	background-color:#f0f0f0;
 }
 
@@ -67,5 +67,17 @@
 
 	background-color:white;
 	color:black;
+
+}
+
+
+/********************Estylos para cada post*****************/
+.divPost{
+
+	background-color:red;
+	width:300px;
+	height:100px;
+	margin:30px;
+	padding:10px;
 
 }

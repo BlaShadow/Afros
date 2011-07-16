@@ -48,8 +48,26 @@ function newsHome(){
 			//si el status es 200 avanzara
 			if(http.status==200){
 			
-				alert(http.responseXML);
-			
+				cuerpo=document.getElementById("postsCuerpo");
+				documentXML=http.responseXML.getElementsByTagName("titulo");
+				
+				for(y=0;y<documentXML.length;y++){
+				
+					tituloNode=http.responseXML.getElementsByTagName("titulo")[y].childNodes[0].nodeValue;
+					detalleNode=http.responseXML.getElementsByTagName("detalle")[y].childNodes[0].nodeValue;
+					posteadorNode=http.responseXML.getElementsByTagName("posteador")[y].childNodes[0].nodeValue;
+					photosNode=http.responseXML.getElementsByTagName("photos")[y].childNodes[0].nodeValue;
+					fechaNode=http.responseXML.getElementsByTagName("fecha")[y].childNodes[0].nodeValue;
+					
+					divPost=document.createElement("div");
+					divPost.className="divPost";
+					divPost.innerHTML=tituloNode+"<br>"+detalleNode+"<br>"+posteadorNode+"<br>"+photosNode+"<br>"+fechaNode;
+					
+					cuerpo.appendChild(divPost);
+					
+				}
+				
+				
 			}
 		
 		}
