@@ -8,12 +8,12 @@
 <head>
 
 	<title>Peluquerias</title>
-	
+	<script src="js/Ajax_ObjetoHTTP.js" type="text/javascript"></script>
 	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
 	
 </head>
 
-<body>
+<body onload="newsHome()">
 
 	<div id="page">
 		
@@ -35,13 +35,8 @@
 		
 		<div id="body">
 		
-		<?php
-		
-			$conexion= new Conexion;
-			$conexion->conexion();
-		
-		?>
 			
+		
 		</div>
 		
 		<div id="footer"></div>
