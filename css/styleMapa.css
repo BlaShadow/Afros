@@ -6,13 +6,13 @@
 	width:960px;
 	border:2px solid black;
 	margin:auto;
-	min-height:600px;
+	min-height:500px;
 
 }
 /* Cabecera*/
 #header{
 
-	height:200px;
+	min-height:300px;
 	border:2px solid blue;
 }
 
@@ -27,7 +27,7 @@
 /* pie de pagina*/
 #footer{
 
-	height:100px;
+	height:40px;
 	border:2px solid green;
 
 }

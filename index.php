@@ -36,7 +36,18 @@
 		<div id="body">
 		
 			<div id="postsCuerpo"></div>
-		
+			<div id="loginMaster" align="center">
+			
+				<form>
+				
+					<input type="text">
+					<input type="text">
+					<button>Iniciar</button>
+				
+				</form>
+			
+			</div>
+		<div style="clear:both"></div>
 		</div>
 		
 		<div id="footer"></div>
