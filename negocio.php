@@ -1,6 +1,7 @@
 <?php
 
-require_once("db/conexion.php");
+	session_start();
+	require_once("engine/libreria.php");
 
 ?>
 <html>

@@ -9,6 +9,7 @@
 
 	<title>Peluquerias</title>
 	<script src="js/Ajax_ObjetoHTTP.js" type="text/javascript"></script>
+	<script src="js/libreria.js" type="text/javascript"></script>
 	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
 	
 </head>
