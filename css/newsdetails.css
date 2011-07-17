@@ -120,33 +120,35 @@ table {
 
 }
 
-
-/********************Estylos para cada post*****************/
-.divPost{
-
-	background-color:red;
-	width:300px;
-	height:100px;
-	margin:30px;
-	padding:10px;
-	
-}
-
-/*********************log in master*******************************/
-#loginMaster{
-
-	float:right;
-	width:180px;
-	background-color:black;
-	margin:20px;
-	padding:10px;
-	
-
-}
-
-#postsCuerpo{
-
-	float:left;
-
-}
 /***************************************************/
+.post{
+
+	width:650px;
+	height:200px;
+	background-color:black;
+	margin:30px;
+	padding:20px;
+	color:white;
+}
+.comentarios{
+
+	width:650px;
+	min-height:300px;
+	background-color:black;
+	margin:30px;
+	padding:20px;
+
+}
+
+.comentario{
+
+	margin:auto;
+	width:300px;
+	min-height:150px;
+	background-color:white;
+	margin-top:20px;
+	margin-bottom:20px;
+	
+
+}
+

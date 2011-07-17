@@ -53,16 +53,20 @@ function newsHome(){
 				
 				for(y=0;y<documentXML.length;y++){
 				
+				//recupero todos los tag del xml
+					idNode=http.responseXML.getElementsByTagName("id")[y].childNodes[0].nodeValue;
 					tituloNode=http.responseXML.getElementsByTagName("titulo")[y].childNodes[0].nodeValue;
 					detalleNode=http.responseXML.getElementsByTagName("detalle")[y].childNodes[0].nodeValue;
 					posteadorNode=http.responseXML.getElementsByTagName("posteador")[y].childNodes[0].nodeValue;
 					photosNode=http.responseXML.getElementsByTagName("photos")[y].childNodes[0].nodeValue;
 					fechaNode=http.responseXML.getElementsByTagName("fecha")[y].childNodes[0].nodeValue;
 					
+					//creo mi elemento div donde estaras todos los post 
 					divPost=document.createElement("div");
 					divPost.className="divPost";
-					divPost.innerHTML=tituloNode+"<br>"+detalleNode+"<br>"+posteadorNode+"<br>"+photosNode+"<br>"+fechaNode;
+					divPost.innerHTML="<p><a href=newsdetails.php?id="+idNode+" style='text-decoration:none'>"+tituloNode+"</a></p>"+"<p>"+detalleNode+"</p>"+"<p>"+posteadorNode+"</p>"+"<p>"+photosNode+"</p>"+"<p>"+fechaNode+"</p>"+idNode;
 					
+					//agrego el div al div potscuerpo
 					cuerpo.appendChild(divPost);
 					
 				}

@@ -20,6 +20,10 @@
 		while($ara=mysql_fetch_array($query)){
 		
 			echo "<item>";
+				
+				echo "<id>";
+					echo $ara[0];
+				echo "</id>";
 			
 				echo "<titulo>";
 					echo $ara[1];
