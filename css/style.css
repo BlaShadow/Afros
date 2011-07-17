@@ -104,6 +104,7 @@ table {
 	margin:5;
 	color:white;
 	text-align:center;
+	padding-top:5px;
 	
 }
 #menu a{
@@ -125,7 +126,7 @@ table {
 .divPost{
 
 	background-color:red;
-	width:300px;
+	width:400px;
 	height:100px;
 	margin:30px;
 	padding:10px;
@@ -136,13 +137,30 @@ table {
 #loginMaster{
 
 	float:right;
-	width:180px;
+	width:280px;
+	min-height:80px;
 	background-color:black;
 	margin:20px;
 	padding:10px;
 	
+	
 
 }
+
+#loginMaster input{
+
+	width:190px;
+	height:30px;
+	margin:10px;
+
+}
+#loginMaster  button{
+
+	width:80px;
+	height:30px;
+
+}
+
 
 #postsCuerpo{
 

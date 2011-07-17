@@ -49,6 +49,19 @@
 			</form>
 			
 			</div>
+			
+			<div id="singIn" align="center">
+			
+				<form>
+				
+					<input type="text"><br>
+					<input type="text"><br>
+					<input type="text"><br>
+					<input type="text"><br>
+				
+				</form>
+			
+			</div>
 		
 		</div>
 		

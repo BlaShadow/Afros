@@ -40,8 +40,8 @@
 			
 				<form>
 				
-					<input type="text">
-					<input type="text">
+					<input type="text"><br>
+					<input type="text"><br>
 					<button>Iniciar</button>
 				
 				</form>

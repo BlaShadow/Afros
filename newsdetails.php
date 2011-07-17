@@ -68,9 +68,13 @@
 				
 			<div class="comentarios">
 			
-				<div class="comentario"></div>
-				<div class="comentario"></div>
-				<div class="comentario"></div>
+			<?php
+				for($i=0;$i<3;$i++){
+				
+					echo "<div class='comentario'></div>";
+				
+				}
+			?>
 			
 			</div>
 		</div>
